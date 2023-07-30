@@ -18,5 +18,14 @@ int main() {
     string x;
 
     cin >> a >> b;
-    cout << a + b << endl;
+    cout << a + b << "/n";
+
+    // Can also while cin >> x
+
+    // For contests that read and need output in the form of files
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    // Funny
+
+    
 }
